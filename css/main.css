@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
 
 
 
@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: "untitled-font-1";
-  src:url("../fonts/untitled-font-1.eot");
-  src:url("../fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/untitled-font-1.woff") format("woff"),
-    url("../fonts/untitled-font-1.ttf") format("truetype"),
-    url("../fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  src:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.eot");
+  src:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.eot#iefix") format("embedded-opentype"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.woff") format("woff"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.ttf") format("truetype"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.svg#untitled-font-1") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -29,6 +29,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-up-open-big { display: inline-block; }
+
 .icon-up-open-big:after {
   content: "a";
   font-size: 2.5em;
@@ -41,7 +43,7 @@
 }
 
 .icon-up-open-big:hover:after {
-	color: white;	
+	color: white;
 }
 
 .scroll-icon {
@@ -258,15 +260,15 @@ nav li.active a,
 body.fp-viewing-fifthSection-1 #menu li:last-child a {
   background: #453659;
 }
-  
 
 
-/* SECTION STYLES - fullPage.js 
+
+/* SECTION STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-section { 
+section {
 	text-align: center;
-  /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
+  background: url('../images/GasTruck.jpg') no-repeat center / cover;
 }
 
 h2 {
@@ -282,10 +284,10 @@ h3 {
 
 
 
-/* SLIDENAV STYLES - fullPage.js 
+/* SLIDENAV STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#fp-nav ul li a span, 
+#fp-nav ul li a span,
 .fp-slidesNav ul li a span {
 	background: white;
 	width: 8px;
@@ -293,9 +295,9 @@ h3 {
 	margin: -4px 0 0 -4px;
 }
 
-#fp-nav ul li a.active span, 
-.fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
 	width: 16px;
 	height: 16px;
@@ -322,11 +324,11 @@ h3 {
 	nav li {
 		margin-top: 1px;
 	}
-  
+
   nav li a {
     font-size: 1.5em;
   }
-  
+
   .scroll-icon {
     display: none;
   }
@@ -336,7 +338,7 @@ h3 {
   html {
     font-size: 50%;
   }
-  
+
   .open-menu ~ nav {
 		padding: 20px 0;
 	}
