@@ -129,7 +129,6 @@ ul, li {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header-top {
-	background: rgba(0, 47, 77, .3);
 	height: 70px;
 	padding: 0 10px;
 	position: fixed;
@@ -200,7 +199,6 @@ nav {
  	height: 0;
 	opacity: 0;
   box-sizing: border-box;
-	background: rgba(0, 47, 77, .25);
 	position: fixed;
 	top: 70px;
 	width: 100%;
@@ -268,8 +266,22 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 section {
 	text-align: center;
-  background: url('../images/GasTruck.jpg') no-repeat center / cover;
+  	background: url('../images/GasTruck.jpg') no-repeat center / cover;
 }
+section {
+	text-align: center;
+  	background: url('../images/GasTruck.jpg') no-repeat center / cover;
+}
+section {
+	text-align: center;
+  	background: url('../images/GasTruck.jpg') no-repeat center / cover;
+}
+section {
+	text-align: center;
+  	background: url('../images/GasTruck.jpg') no-repeat center / cover;
+}
+
+
 
 h2 {
 	text-transform: lowercase;
