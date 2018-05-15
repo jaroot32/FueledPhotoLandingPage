@@ -264,16 +264,24 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 /* SECTION STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+section .trucks {
+	text-align: center;
+  	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
+}
+section .heavey-iron {
+	text-align: center;
+  	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
+}
+section {
+	text-align: center;
+  	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
+}
 section {
 	text-align: center;
   	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
 }
 
-
-
-
 h2 {
-	text-transform: lowercase;
 	font-size: 4em;
 	margin-bottom: 20px;
 }

@@ -40,7 +40,7 @@ $('#fullpage').fullpage({
       $.fn.fullpage.setAllowScrolling(false, 'up');
       $header_top.css('background', 'transparent');
       $nav.css('background', 'transparent');
-      $(this).css('background', '#374140');
+      $(this).css('background', 'transparent');
       $(this).find('h2').css('color', 'white');
       $(this).find('h3').css('color', 'white');
       $(this).find('p').css(
