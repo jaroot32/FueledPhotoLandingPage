@@ -1,0 +1,26 @@
+{
+  "name": "fueledphotolandingpage",
+  "version": "1.0.0",
+  "description": "Fueled Photography Website",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaroot32/FueledPhotoLandingPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaroot32/FueledPhotoLandingPage/issues"
+  },
+  "homepage": "https://github.com/jaroot32/FueledPhotoLandingPage#readme"
+}
