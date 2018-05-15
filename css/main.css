@@ -73,6 +73,8 @@
 
 .l-left {
 	float: left;
+	margin: 0 auto;
+	padding: .5em 2em;
 }
 
 .l-right {
@@ -264,22 +266,23 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 /* SECTION STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-section .trucks {
+.trucks {
 	text-align: center;
   	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
 }
-section .heavey-iron {
+.heavy-iron {
 	text-align: center;
-  	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
+  	background: url('../images/HeavyIron-min.jpg') no-repeat center / cover;
 }
-section {
+.crew {
 	text-align: center;
-  	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
+  	background: url('../images/Crew.jpg') no-repeat center / cover;
 }
-section {
+.plane {
 	text-align: center;
-  	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
+  	background: url('../images/Plane.jpg') no-repeat center / cover;
 }
+
 
 h2 {
 	font-size: 4em;
