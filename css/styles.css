@@ -236,14 +236,95 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 .heavy-iron {
   text-align: center;
   background: url("../images/HeavyIron-min.jpg") no-repeat center/cover; }
+  .heavy-iron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000000, #000000);
+    opacity: .6; }
+  .heavy-iron h2 {
+    position: relative;
+    left: 65%;
+    padding: 0 10px;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    transform: translateX(-60%); }
+  .heavy-iron h3 {
+    position: relative;
+    left: 65%;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    transform: translateX(-60%); }
 
 .crew {
   text-align: center;
   background: url("../images/Crew.jpg") no-repeat center/cover; }
+  .crew:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000000, #000000);
+    opacity: .6; }
+  .crew h2 {
+    position: relative;
+    left: 65%;
+    padding: 0 10px;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    transform: translateX(-60%); }
+  .crew h3 {
+    position: relative;
+    left: 65%;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    transform: translateX(-60%); }
 
 .plane {
   text-align: center;
   background: url("../images/Plane.jpg") no-repeat center/cover; }
+  .plane:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000000, #000000);
+    opacity: .6; }
+  .plane h2 {
+    position: relative;
+    left: 65%;
+    padding: 0 10px;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    transform: translateX(-60%); }
+  .plane h3 {
+    position: relative;
+    left: 65%;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    transform: translateX(-60%); }
 
 /* SLIDENAV STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
