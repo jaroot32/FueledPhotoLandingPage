@@ -46,10 +46,9 @@
 	color: white;
 }
 
-.scroll-icon {
+/* .scroll-icon {
 	position: absolute;
  	left: 50%;
-  bottom: 30px;
   padding: 0 10px;
   	-webkit-transform: translateX(-50%);
   	    -ms-transform: translateX(-50%);
@@ -270,6 +269,7 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	text-align: center;
   	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
 }
+
 .heavy-iron {
 	text-align: center;
   	background: url('../images/HeavyIron-min.jpg') no-repeat center / cover;
@@ -282,6 +282,10 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	text-align: center;
   	background: url('../images/Plane.jpg') no-repeat center / cover;
 }
+
+
+
+
 
 
 h2 {
@@ -341,9 +345,6 @@ h3 {
     font-size: 1.5em;
   }
 
-  .scroll-icon {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 400px) {
