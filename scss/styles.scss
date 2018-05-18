@@ -270,6 +270,8 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
   	position: relative;
  	left: 65%;
   	padding: 0 10px;
+  	font-size: 4em;
+	margin-bottom: 20px;
   	-webkit-transform: translateX(-60%);
   	    -ms-transform: translateX(-60%);
   	        transform: translateX(-60%);
@@ -278,6 +280,8 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
   	position: relative;
   	left: 65%;
   	padding: 0 10px;
+  	font-weight: 300;
+	font-size: 2.8em;
   	-webkit-transform: translateX(-60%);
   	    -ms-transform: translateX(-60%);
   	        transform: translateX(-60%);
@@ -296,23 +300,6 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	text-align: center;
   	background: url('../images/Plane.jpg') no-repeat center / cover;
 }
-
-
-
-
-
-
-h2 {
-	font-size: 4em;
-	margin-bottom: 20px;
-}
-
-h3 {
-	font-weight: 300;
-	font-size: 2.8em;
-}
-
-
 
 /* SLIDENAV STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
