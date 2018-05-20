@@ -1,15 +1,13 @@
 $(function() {
-// variables
-    var $header_top = $('.header-top');
-    var $nav = $('nav');
-
 
 
     // toggle menu
-    $header_top.find('a').on('click', function() {
-      $(this).parent().toggleClass('open-menu');
-    });
-
+   $('.menuDrop').on('click', function(e) {
+  // Prevent link from jumping to the top of the page
+  e.preventDefault();
+  // If menu is already showing, slide it up. Otherwise, slide it down.
+  $('.menu').toggleClass('slide-down');
+});
 
 
     // fullpage customization
@@ -31,32 +29,6 @@ $(function() {
       onLeave: function(index, nextIndex, direction) {
         if(index == 5) {
           $('#fp-nav').show();
-        }
-      },
-
-      afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex) {
-        if(anchorLink == 'fifthSection' && slideIndex == 1) {
-          $.fn.fullpage.setAllowScrolling(false, 'up');
-          $header_top.css('background', 'transparent');
-          $nav.css('background', 'transparent');
-          $(this).css('background', 'transparent');
-          $(this).find('h2').css('color', 'white');
-          $(this).find('h3').css('color', 'white');
-          $(this).find('p').css(
-            {
-              'color': '#DC3522',
-              'opacity': 1,
-              'transform': 'translateY(0)'
-            }
-          );
-        }
-      },
-
-      onSlideLeave: function( anchorLink, index, slideIndex, direction) {
-        if(anchorLink == 'fifthSection' && slideIndex == 1) {
-          $.fn.fullpage.setAllowScrolling(true, 'up');
-          $header_top.css('background', 'transparent');
-          $nav.css('background', 'rgba(0, 47, 77, .25)');
         }
       }
     });
