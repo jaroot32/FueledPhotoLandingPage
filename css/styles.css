@@ -163,12 +163,12 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    top: 40%;
+    top: 30%;
     left: 20%;
     right: 20%; }
     .heavy-iron .imageText h2 {
       position: relative;
-      left: 60%;
+      left: 65%;
       text-align: center;
       font-size: 4em;
       margin-bottom: 20px;
@@ -177,7 +177,7 @@ header {
       transform: translateX(-60%); }
     .heavy-iron .imageText h3 {
       position: relative;
-      left: 60%;
+      left: 65%;
       text-align: center;
       font-weight: 300;
       font-size: 2.8em;
