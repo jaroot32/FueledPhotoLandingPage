@@ -186,11 +186,17 @@ header {
   }
   .imageText {
     position: absolute;
-    top: 20%;
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+   
   h2 {
   	position: relative;
- 	  left: 60%;
-  	padding: 0 10px;
+    left: 65%;
+    text-align: center;
   	font-size: 4em;
 	  margin-bottom: 20px;
   	-webkit-transform: translateX(-60%);
@@ -199,14 +205,38 @@ header {
   }
   h3 {
   	position: relative;
-  	left: 60%;
-  	padding: 0 10px;
+    left: 65%;
+    text-align: center;
   	font-weight: 300;
 	  font-size: 2.8em;
   	-webkit-transform: translateX(-60%);
   	    -ms-transform: translateX(-60%);
   	        transform: translateX(-60%);
   }
+  .ghost-button-semi-transparent {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    width: 200px;
+    margin-top: 1em;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+                border-color 0.2s ease-out;
+}
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+    background-color: #fff; /* fallback */
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: #fff; /* fallback */
+    border-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+}
 }
 }
 .crew {
@@ -223,7 +253,7 @@ header {
   }
   .imageText {
     position: absolute;
-    top: 20%;
+    top: 10%;
   h2 {
   	position: relative;
  	  left: 60%;
