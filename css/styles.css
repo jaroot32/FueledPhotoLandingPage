@@ -168,7 +168,7 @@ header {
     right: 20%; }
     .heavy-iron .imageText h2 {
       position: relative;
-      left: 65%;
+      left: 60%;
       text-align: center;
       font-size: 4em;
       margin-bottom: 20px;
@@ -177,7 +177,7 @@ header {
       transform: translateX(-60%); }
     .heavy-iron .imageText h3 {
       position: relative;
-      left: 65%;
+      left: 60%;
       text-align: center;
       font-weight: 300;
       font-size: 2.8em;
@@ -220,11 +220,16 @@ header {
     opacity: .4; }
   .crew .imageText {
     position: absolute;
-    top: 10%; }
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 40%;
+    left: 20%;
+    right: 20%; }
     .crew .imageText h2 {
       position: relative;
-      left: 60%;
-      padding: 0 10px;
+      left: 63%;
+      text-align: center;
       font-size: 4em;
       margin-bottom: 20px;
       -webkit-transform: translateX(-60%);
@@ -233,12 +238,33 @@ header {
     .crew .imageText h3 {
       position: relative;
       left: 60%;
-      padding: 0 10px;
       font-weight: 300;
       font-size: 2.8em;
       -webkit-transform: translateX(-60%);
       -ms-transform: translateX(-60%);
       transform: translateX(-60%); }
+    .crew .imageText .ghost-button-semi-transparent {
+      display: inline-block;
+      position: relative;
+      text-transform: uppercase;
+      font-size: 1.4em;
+      width: 200px;
+      margin-top: 1em;
+      color: #fff;
+      border: 2px solid #fff;
+      text-align: center;
+      outline: none;
+      text-decoration: none;
+      transition: background-color 0.2s ease-out, border-color 0.2s ease-out; }
+    .crew .imageText .ghost-button-semi-transparent:hover,
+    .crew .imageText .ghost-button-semi-transparent:active {
+      background-color: #fff;
+      /* fallback */
+      background-color: rgba(255, 255, 255, 0.4);
+      border-color: #fff;
+      /* fallback */
+      border-color: rgba(255, 255, 255, 0.4);
+      transition: background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .plane {
   background: url("../images/Plane.jpg") no-repeat center/cover; }
