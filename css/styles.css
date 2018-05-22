@@ -20,8 +20,7 @@
 /* RESET-GENERAL STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
   font-family: 'Alegreya Sans', Arial, sans-serif; }
 
 html {
@@ -29,7 +28,9 @@ html {
 
 body {
   color: white;
-  letter-spacing: .15em; }
+  letter-spacing: .15em;
+  margin: 0;
+  padding: 0; }
 
 a {
   text-decoration: none;
@@ -77,18 +78,19 @@ nav li a {
 header {
   position: fixed;
   width: 100%;
-  left: 0;
+  left: .2%;
+  right: .2%;
   top: 0;
   height: auto;
   z-index: 100;
   border-top: 0;
-  transition: all 0.1s ease-in-out; }
+  transition: all 0.1s ease-in-out;
+  padding: 0 1em; }
 
 .nameAndMenu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 1em; }
+  align-items: center; }
   .nameAndMenu span.thicker {
     color: black;
     font-weight: 300; }
@@ -100,8 +102,7 @@ header {
 
 .site-nav ul {
   list-style: none;
-  margin: 0;
-  padding-right: 2em; }
+  margin: 0; }
 
 .site-nav li {
   display: inline-block;
@@ -293,7 +294,7 @@ header {
 
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 740px) {
   .site-header {
     background-color: #fefef3;
     background-size: 2400px 2800px;
@@ -310,7 +311,7 @@ header {
     list-style: none; }
   .site-nav ul a {
     display: block;
-    padding-right: 0 !important;
+    padding-left: 0 !important;
     /* important overrides media queries */
     text-align: center;
     cursor: pointer;
@@ -327,6 +328,7 @@ header {
   .menu {
     height: 0;
     overflow: hidden;
+    padding-left: 0;
     transition: height 0.3s linear; }
   .slide-down {
     height: 35em; } }
@@ -336,7 +338,7 @@ header {
     list-style: none; }
   .site-nav ul a {
     display: block;
-    padding-right: 0 !important;
+    padding-left: 0 !important;
     /* important overrides media queries */
     text-align: center;
     cursor: pointer;
