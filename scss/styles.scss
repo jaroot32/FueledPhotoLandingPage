@@ -146,7 +146,8 @@ header {
   }
   .imageText {
     position: absolute;
-    top: 20%;
+    top: 50%;
+    left: 10%;
 
   h2 {
   	position: relative;
@@ -339,7 +340,20 @@ header {
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 738px) {
+  header {
+    .nameAndMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span.thicker {
+    color: black;
+    font-weight: 300;
+  }
+  img {
+    padding-top: 1em; 
+  }
+}
   .site-header {
     background-color: #fefef3;
     background-size:2400px 2800px;
@@ -394,6 +408,7 @@ header {
   }
 
 }
+ }
 
 @media screen and (max-width: 400px) {
 	.site-nav {

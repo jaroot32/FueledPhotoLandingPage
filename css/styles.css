@@ -126,7 +126,8 @@ header {
     opacity: .4; }
   .trucks .imageText {
     position: absolute;
-    top: 20%; }
+    top: 50%;
+    left: 10%; }
     .trucks .imageText h2 {
       position: relative;
       left: 60%;
@@ -294,43 +295,52 @@ header {
 
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 740px) {
-  .site-header {
+@media screen and (max-width: 738px) {
+  header .nameAndMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .nameAndMenu span.thicker {
+      color: black;
+      font-weight: 300; }
+    header .nameAndMenu img {
+      padding-top: 1em; }
+  header .site-header {
     background-color: #fefef3;
     background-size: 2400px 2800px;
     border-bottom: 1px solid #EAEBEB;
     text-align: center;
     padding-top: 1em; }
-    .site-header a:link {
+    header .site-header a:link {
       text-decoration: none; }
-    .site-header h1 {
+    header .site-header h1 {
       font-weight: bold;
       text-shadow: 1px 1px #989f9f;
       font-size: 22px; }
-  .site-nav ul {
+  header .site-nav ul {
     list-style: none; }
-  .site-nav ul a {
+  header .site-nav ul a {
     display: block;
     padding-left: 0 !important;
     /* important overrides media queries */
     text-align: center;
     cursor: pointer;
     text-decoration: none; }
-  nav {
+  header nav {
     background: linear-gradient(to bottom right, #BC141A, #8A8075);
     flex-direction: column; }
-  .menuDrop {
+  header .menuDrop {
     visibility: visible;
     text-align: right;
     cursor: pointer; }
-  nav li {
+  header nav li {
     width: 100%; }
-  .menu {
+  header .menu {
     height: 0;
     overflow: hidden;
     padding-left: 0;
     transition: height 0.3s linear; }
-  .slide-down {
+  header .slide-down {
     height: 35em; } }
 
 @media screen and (max-width: 400px) {
