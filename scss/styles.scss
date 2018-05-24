@@ -46,7 +46,48 @@ ul, li {
 }
 
 
+/* Truck Page 
+____________________________________________________ */
 
+.truckMain {
+    background: url('../images/WhiteTractor.jpg') no-repeat center / cover;
+     &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #00214E, #FFD494);
+    opacity: .4;
+  }
+  .imageText {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+  h2 {
+    position: relative;
+    left: 60%;
+    padding: 0 10px;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  h3 {
+    position: relative;
+    left: 60%;
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+    }
+  }
+}
 
 /* NAV STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
