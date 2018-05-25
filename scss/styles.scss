@@ -50,7 +50,7 @@ ul, li {
 ____________________________________________________ */
 
 .truckMain {
-    background: url('/images/WhiteTractor.jpg') no-repeat center / cover;
+    background: url('{{ site.baseurl }}/images/WhiteTractor.jpg') no-repeat center / cover;
      &:before {
     content: '';
     position: absolute;
