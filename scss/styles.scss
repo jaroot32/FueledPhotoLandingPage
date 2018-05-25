@@ -50,7 +50,7 @@ ul, li {
 ____________________________________________________ */
 
 .truckMain {
-    background: url('../images/WhiteTractor.jpg') no-repeat center / cover;
+    background: url('/images/WhiteTractor.jpg') no-repeat center / cover;
      &:before {
     content: '';
     position: absolute;
@@ -174,7 +174,7 @@ header {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .trucks {
-  	background: url('../images/GasTruck-min.jpg') no-repeat center / cover;
+  	background: url('{{ site.baseurl }}/images/GasTruck-min.jpg') no-repeat center / cover;
   	 &:before {
     content: '';
   	position: absolute;
@@ -214,7 +214,7 @@ header {
 }
 
 .heavy-iron {
-  	background: url('../images/HeavyIron-min.jpg') no-repeat center / cover;
+  	background: url('{{ site.baseurl }}/images/HeavyIron-min.jpg') no-repeat center / cover;
   	&:before {
     content: '';
   	position: absolute;
@@ -281,7 +281,7 @@ header {
 }
 }
 .crew {
-  background: url('../images/Crew.jpg') no-repeat center / cover;
+  background: url('{{ site.baseurl }}/images/Crew.jpg') no-repeat center / cover;
   &:before {
   content: '';
 	position: absolute;
@@ -346,7 +346,7 @@ header {
 }
 }
 .plane {
-  	background: url('../images/Plane.jpg') no-repeat center / cover;
+  	background: url('{{ site.baseurl }}/images/Plane.jpg') no-repeat center / cover;
   	&:before {
     content: '';
 	position: absolute;
