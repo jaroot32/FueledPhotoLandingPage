@@ -39,42 +39,6 @@ a {
 ul, li {
   list-style-type: none; }
 
-/* Truck Page 
-____________________________________________________ */
-.truckMain {
-  background: url("../images/WhiteTractor.jpg") no-repeat center/cover; }
-  .truckMain:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to bottom right, #00214E, #FFD494);
-    opacity: .4; }
-  .truckMain .imageText {
-    position: absolute;
-    top: 20%;
-    left: 10%; }
-    .truckMain .imageText h2 {
-      position: relative;
-      left: 60%;
-      padding: 0 10px;
-      font-size: 4em;
-      margin-bottom: 20px;
-      -webkit-transform: translateX(-60%);
-      -ms-transform: translateX(-60%);
-      transform: translateX(-60%); }
-    .truckMain .imageText h3 {
-      position: relative;
-      left: 60%;
-      padding: 0 10px;
-      font-weight: 300;
-      font-size: 2.8em;
-      -webkit-transform: translateX(-60%);
-      -ms-transform: translateX(-60%);
-      transform: translateX(-60%); }
-
 /* NAV STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* h1 {
@@ -149,8 +113,44 @@ header {
 
 /* SECTION STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Truck Page 
+____________________________________________________ */
+.truckMain {
+  background: url("/images/WhiteTractor.jpg") no-repeat center/cover; }
+  .truckMain:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #00214E, #FFD494);
+    opacity: .4; }
+  .truckMain .imageText {
+    position: absolute;
+    top: 20%;
+    left: 10%; }
+    .truckMain .imageText h2 {
+      position: relative;
+      left: 60%;
+      padding: 0 10px;
+      font-size: 4em;
+      margin-bottom: 20px;
+      -webkit-transform: translateX(-60%);
+      -ms-transform: translateX(-60%);
+      transform: translateX(-60%); }
+    .truckMain .imageText h3 {
+      position: relative;
+      left: 60%;
+      padding: 0 10px;
+      font-weight: 300;
+      font-size: 2.8em;
+      -webkit-transform: translateX(-60%);
+      -ms-transform: translateX(-60%);
+      transform: translateX(-60%); }
+
 .trucks {
-  background: url("../images/GasTruck-min.jpg") no-repeat center/cover; }
+  background: url("/images/GasTruck-min.jpg") no-repeat center/cover; }
   .trucks:before {
     content: '';
     position: absolute;
@@ -184,7 +184,7 @@ header {
       transform: translateX(-60%); }
 
 .heavy-iron {
-  background: url("../images/HeavyIron-min.jpg") no-repeat center/cover; }
+  background: url("/images/HeavyIron-min.jpg") no-repeat center/cover; }
   .heavy-iron:before {
     content: '';
     position: absolute;
@@ -244,7 +244,7 @@ header {
       transition: background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .crew {
-  background: url("../images/Crew.jpg") no-repeat center/cover; }
+  background: url("/images/Crew.jpg") no-repeat center/cover; }
   .crew:before {
     content: '';
     position: absolute;
@@ -303,7 +303,7 @@ header {
       transition: background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .plane {
-  background: url("../images/Plane.jpg") no-repeat center/cover; }
+  background: url("/images/Plane.jpg") no-repeat center/cover; }
   .plane:before {
     content: '';
     position: absolute;
