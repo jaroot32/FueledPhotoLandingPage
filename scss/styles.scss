@@ -69,7 +69,6 @@ ul, li {
   h2 {
     position: relative;
     left: 60%;
-    padding: 0 10px;
     font-size: 4em;
     margin-bottom: 20px;
     -webkit-transform: translateX(-60%);
@@ -79,7 +78,7 @@ ul, li {
   h3 {
     position: relative;
     left: 60%;
-    padding: 0 10px;
+    padding: 0 .1em;
     font-weight: 300;
     font-size: 2.8em;
     -webkit-transform: translateX(-60%);
@@ -111,7 +110,6 @@ ul, li {
   h2 {
     position: relative;
     left: 60%;
-    padding: 0 10px;
     font-size: 4em;
     margin-bottom: 20px;
     -webkit-transform: translateX(-60%);
@@ -121,7 +119,7 @@ ul, li {
   h3 {
     position: relative;
     left: 60%;
-    padding: 0 10px;
+    padding: 0 .1em;
     font-weight: 300;
     font-size: 2.8em;
     -webkit-transform: translateX(-60%);
@@ -184,7 +182,7 @@ ul, li {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to bottom right, #FDAD00, #8C5A77);
+    background: linear-gradient(to bottom right, #FDAD00, #6E8394);
     opacity: .4;
   }
   .imageText {
@@ -195,7 +193,6 @@ ul, li {
   h2 {
     position: relative;
     left: 60%;
-    padding: 0 10px;
     font-size: 4em;
     margin-bottom: 20px;
     -webkit-transform: translateX(-60%);
@@ -321,7 +318,6 @@ header {
   h2 {
   	position: relative;
  	  left: 60%;
-  	padding: 0 10px;
   	font-size: 4em;
 	  margin-bottom: 20px;
   	-webkit-transform: translateX(-60%);
@@ -331,7 +327,7 @@ header {
   h3 {
   	position: relative;
   	left: 60%;
-  	padding: 0 10px;
+  	padding: 0 .1em;
   	font-weight: 300;
 	  font-size: 2.8em;
   	-webkit-transform: translateX(-60%);
@@ -364,7 +360,7 @@ header {
    
   h2 {
   	position: relative;
-    left: 65%;
+    left: 60%;
     text-align: center;
   	font-size: 4em;
 	  margin-bottom: 20px;
@@ -374,7 +370,7 @@ header {
   }
   h3 {
   	position: relative;
-    left: 65%;
+    left: 60%;
     text-align: center;
   	font-weight: 300;
 	  font-size: 2.8em;
@@ -430,7 +426,7 @@ header {
     right: 20%;
   h2 {
   	position: relative;
- 	  left: 63%;
+ 	  left: 60%;
     text-align: center;
   	font-size: 4em;
 	  margin-bottom: 20px;
@@ -488,10 +484,10 @@ header {
   .imageText {
     position: absolute;
     top: 20%;
+    left: 10%;
   h2 {
   	position: relative;
  	left: 60%;
-  	padding: 0 10px;
   	font-size: 4em;
 	margin-bottom: 20px;
   	-webkit-transform: translateX(-60%);
@@ -501,7 +497,7 @@ header {
   h3 {
   	position: relative;
   	left: 60%;
-  	padding: 0 10px;
+  	padding: 0 .1em;
   	font-weight: 300;
 	font-size: 2.8em;
   	-webkit-transform: translateX(-60%);
