@@ -17,27 +17,14 @@ title: Fueled Photography
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
   Fueled Photography
-baseurl: "/FueledPhotoLandingPage" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000"
+baseurl: "" # the subpath of your site, e.g. /blog
 # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 exclude: [node_modules, gulpfile.js, package.json]
-
-permalink: /:categories/:title
-
-links:
-    - title: trucks
-      url: /Trucks
-    - title: heavy iron
-      url: /Heavy-iron
-    - title: crew
-      url: /Crew
-    - title: aerial
-      url: /Aerial
-    - title: film
-      url: /Film
+sass:
+    sass_dir: _sass
 
 # Build settings
 markdown: kramdown
