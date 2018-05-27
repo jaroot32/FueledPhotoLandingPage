@@ -147,6 +147,48 @@ ul, li {
   }
   .imageText {
     position: absolute;
+    top: 60%;
+    left: 60%;
+    text-align: right;
+
+  h2 {
+    position: relative;
+    left: 60%;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  h3 {
+    position: relative;
+    left: 60%;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+    }
+
+  }
+}
+
+.crewMain {
+   background: url('{{ site.baseurl }}/images/crew/crewbg-min.jpg') no-repeat center / cover;
+     width: 100%;
+    height: 735px;
+     &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #FDAD00, #8C5A77);
+    opacity: .4;
+  }
+  .imageText {
+    position: absolute;
     top: 20%;
     left: 10%;
 
@@ -476,7 +518,6 @@ header {
   position: relative;
   text-transform: uppercase;
   font-size: 1.4em;
-  left: 4%;
   width: 200px;
   padding: 12px;
   margin-top: 1em;
