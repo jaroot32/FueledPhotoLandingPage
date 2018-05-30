@@ -1,0 +1,55 @@
+/* BASE STYLES */
+
+* {
+  box-sizing: border-box;
+	font-family: 'Alegreya Sans', Arial, sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	color: white;
+	letter-spacing: .1em;
+  	margin: 0;
+  	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+/* BUTTON STYLES */
+
+.ghost-button-semi-transparent {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  width: 200px;
+  padding: 12px;
+  margin-top: 1em;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}

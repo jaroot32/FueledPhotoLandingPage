@@ -23,8 +23,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 exclude: [node_modules, gulpfile.js, package.json]
-sass:
-    sass_dir: _sass
 
 # Build settings
 markdown: kramdown

@@ -4,12 +4,15 @@
   "description": "Fueled Photography Website",
   "main": "index.js",
   "dependencies": {
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-sass": "^4.0.1"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
     "gulp": "^3.9.1",
-    "gulp-imagemin": "^4.1.0"
+    "gulp-imagemin": "^4.1.0",
+    "gulp-shell": "^0.6.5",
+    "lodash": "^4.17.10"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

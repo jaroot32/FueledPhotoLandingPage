@@ -1,0 +1,217 @@
+
+
+/* SECTION STYLES - fullPage.js
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.trucks {
+    background: url('{{ site.baseurl }}../../../images/GasTruck-min.jpg') no-repeat center / cover;
+     &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
+  }
+  .imageText {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+  h2 {
+    position: relative;
+    left: 60%;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  h3 {
+    position: relative;
+    left: 60%;
+    padding: 0 .1em;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+    }
+  }
+}
+
+.heavy-iron {
+    background: url('{{ site.baseurl }}../../../images/HeavyIron-min.jpg') no-repeat center / cover;
+    &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
+  }
+  .imageText {
+    position: absolute;
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+   
+  h2 {
+    position: relative;
+    left: 60%;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  h3 {
+    position: relative;
+    left: 60%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  .ghost-button-semi-transparent {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    width: 200px;
+    margin-top: 1em;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+                border-color 0.2s ease-out;
+}
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+    background-color: #fff; /* fallback */
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: #fff; /* fallback */
+    border-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+}
+}
+}
+.crew {
+  background: url('{{ site.baseurl }}../../../images/Crew.jpg') no-repeat center / cover;
+  &:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #000, #000);
+  opacity: .2;
+  }
+  .imageText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+  h2 {
+    position: relative;
+    left: 60%;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  h3 {
+    position: relative;
+    left: 60%;
+    font-weight: 300;
+    font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  .ghost-button-semi-transparent {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    width: 200px;
+    margin-top: 1em;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+                border-color 0.2s ease-out;
+}
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+    background-color: #fff; /* fallback */
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: #fff; /* fallback */
+    border-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+}
+}
+}
+.plane {
+    background: url('{{ site.baseurl }}../../../images/Plane.jpg') no-repeat center / cover;
+    &:before {
+    content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #000, #000);
+  opacity: .2;
+  }
+  .imageText {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  h2 {
+    position: relative;
+  left: 60%;
+    font-size: 4em;
+  margin-bottom: 20px;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  h3 {
+    position: relative;
+    left: 60%;
+    padding: 0 .1em;
+    font-weight: 300;
+  font-size: 2.8em;
+    -webkit-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+}
+}
+
+
+

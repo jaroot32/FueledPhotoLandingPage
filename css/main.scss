@@ -1,0 +1,238 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+ @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+
+/* Import partials from `sass_dir` (defaults to `_sass`) */
+
+@import "base";
+@import "layout";
+@import "home";
+@import "pages";
+
+/* ICON STYLES - ICON FROM: http://fontastic.me/
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.eot");
+  src:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.eot#iefix") format("embedded-opentype"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.woff") format("woff"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.ttf") format("truetype"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 742px) {
+   .trucks {
+    background: url('{{ site.baseurl }}/images/GasTruck-min738.jpg') no-repeat center / cover;
+     &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
+  }
+}
+  .plane {
+    background: url('{{ site.baseurl }}/images/Plane738.jpg') no-repeat center / cover;
+    &:before {
+    content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #000, #000);
+  opacity: .2;
+  }
+}
+  header {
+    .nameAndMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span.thicker {
+    color: black;
+    font-weight: 300;
+  }
+  img {
+    padding-top: 1em; 
+  }
+  .menuDrop {
+    text-align: right;
+  }
+}
+  .site-header {
+    background-color: #fefef3;
+    background-size:2400px 2800px;
+    border-bottom: 1px solid #EAEBEB;
+    text-align: center;
+    padding-top: 1em;
+    a:link {
+     text-decoration: none;
+ }
+    h1 {
+        font-weight: bold;
+        text-shadow: 1px 1px #989f9f;
+        font-size: 22px;
+    }
+}
+	.site-nav {
+  ul {
+      list-style: none;
+    }
+  ul a {
+        display: block;
+        padding-left: 0 !important; /* important overrides media queries */
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+  }
+
+    }
+  nav {
+    background: linear-gradient(to bottom right, #BC141A, #8A8075);
+    flex-direction: column;
+  }
+
+  .menuDrop {
+      visibility: visible;
+      text-align: right;
+      cursor: pointer;
+    }
+
+  nav li {
+    width: 100%;
+  }
+
+  .menu {
+    height: 0;
+    overflow: hidden;
+    padding-left: 0;
+    transition: height 0.3s linear;
+  }
+  .slide-down {
+    height: 35em;
+  }
+
+}
+ }
+
+@media screen and (max-width: 400px) {
+    .trucks {
+    background: url('{{ site.baseurl }}/images/GasTruck-min400.jpg') no-repeat center / cover;
+     &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
+  }
+}
+.heavy-iron {
+    background: url('{{ site.baseurl }}/images/HeavyIron-min400.jpg') no-repeat center / cover;
+    &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
+  }
+}
+.crew {
+  background: url('{{ site.baseurl }}/images/Crew400.jpg') no-repeat center / cover;
+  &:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #000, #000);
+  opacity: .2;
+  }
+  }
+  .plane {
+    background: url('{{ site.baseurl }}/images/Plane400.jpg') no-repeat center / cover;
+    &:before {
+    content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #000, #000);
+  opacity: .2;
+  }
+}
+.aerialMain {
+   background: url('{{ site.baseurl }}/images/aerial/aerialbg400.jpg') no-repeat center / cover;
+     width: 100%;
+    height: 735px;
+     &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
+  }
+  }
+	.site-nav {
+  ul {
+      list-style: none;
+    }
+  ul a {
+        display: block;
+        padding-left: 0 !important; /* important overrides media queries */
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+  }
+
+    }
+
+  html {
+    font-size: 50%;
+  }
+
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear;
+  }
+  .slide-down {
+    height: 33em;
+  }
+  .imageText .button {
+    padding: 2em 4em;
+    margin-top: 4em;
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 738px) {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
