@@ -11,8 +11,7 @@ $(function() {
 
  $(window).on("scroll", function() {
         $(window).scrollTop() > 5 ? $("header").addClass("active") : $("header").removeClass("active")
-    });
-
+  });
 
     // fullpage customization
     $('#fullpage').fullpage({
