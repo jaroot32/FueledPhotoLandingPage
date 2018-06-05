@@ -4,7 +4,7 @@
  @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
 
 /* Import partials from `sass_dir` (defaults to `_sass`) */
-
+@import "normalize";
 @import "base";
 @import "layout";
 @import "home";
@@ -154,29 +154,29 @@
   }
 }
 .crew {
-  background: url('{{ site.baseurl }}/images/Crew400.jpg') no-repeat center / cover;
-  &:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to bottom right, #000, #000);
-  opacity: .2;
-  }
+    background: url('{{ site.baseurl }}/images/Crew400.jpg') no-repeat center / cover;
+    &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
+    }
   }
   .plane {
     background: url('{{ site.baseurl }}/images/Plane400.jpg') no-repeat center / cover;
     &:before {
     content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to bottom right, #000, #000);
-  opacity: .2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #000, #000);
+    opacity: .2;
   }
 }
 .aerialMain {

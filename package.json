@@ -6,7 +6,8 @@
   "dependencies": {
     "gulp-autoprefixer": "^5.0.0",
     "gulp-sass": "^4.0.1",
-    "headroom.js": "^0.9.4"
+    "headroom.js": "^0.9.4",
+    "normalize.css": "^8.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",

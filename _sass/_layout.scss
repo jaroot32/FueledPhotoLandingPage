@@ -80,6 +80,41 @@ header.active {
   padding-bottom: 4.8em;
 }
 
+.review {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 6em;
+	background-color: #fff;
+	width: 100%;
+	height: 746px;
+	color: #5a5a5a;
+	
+	h1, h2 {
+		color: #28272c;
+		text-transform: uppercase;
+	}
+	h2 {
+		padding: .5em;
+	}
+	img {
+		width: 80px;
+		height: 80px;
+	    border-radius: 50%;
+	    padding: 2em;
+	}
+
+	h3 {
+		color: #e2e2e3;
+		padding: .5em;
+		}
+	p {
+		line-height: 1.5;
+		margin: 0 auto;
+	}
+	}
 
 .nameAndMenu {
   display: flex;
