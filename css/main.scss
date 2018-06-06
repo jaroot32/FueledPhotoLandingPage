@@ -27,7 +27,7 @@
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 742px) {
+@media screen and (max-width: 725px) {
    .trucks {
     background: url('{{ site.baseurl }}/images/GasTruck-min738.jpg') no-repeat center / cover;
      &:before {
@@ -240,7 +240,7 @@
   }
 }
 
-@media (min-width: 742px) {
+@media (min-width: 726px) {
 header {
   display: flex;
   justify-content: space-between;
