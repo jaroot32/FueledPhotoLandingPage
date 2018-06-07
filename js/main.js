@@ -35,4 +35,15 @@ $(function() {
         }
       }
     });
+    // external js: isotope.pkgd.js, imagesloaded.pkgd.js
+
+// init Isotope
+$('.grid').isotope({
+   layoutMode: 'fitRows',
+  itemSelector: '.grid-item'
+});
+// layout Isotope after each image loads
+$('.grid').imagesLoaded().progress( function() {
+  $('.grid').isotope('layout');
+});
 }());
